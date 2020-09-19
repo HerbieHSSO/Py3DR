@@ -12,7 +12,7 @@ import Py3DR
 variable_reconstruction3D = Py3DR.reconstruction3D(imageLeft, imageRight, output_3d)
 
 #Read the file.ply
-variable_read_ply = Py3DR.write_plt(output_3d)
+variable_read_ply = Py3DR.write_ply(output_3d)
 
 
 
