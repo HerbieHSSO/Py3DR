@@ -64,7 +64,7 @@ def reconstruction3D(imgLeft, imgRight, out_ply):
 
 
     write_ply(out_ply, out_points_3D, out_colors)
-    print('%s saved' % out_fn)
+    print('%s saved' % out_ply)
 
     #cv.imshow('left', imgL)
     #cv.imshow('disparity', (disparity - min_disparity)/num_disparities)
