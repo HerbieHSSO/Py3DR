@@ -68,4 +68,3 @@ def reconstruction3D(imgLeft, imgRight, out_ply):
 
     #cv.imshow('left', imgL)
     #cv.imshow('disparity', (disparity - min_disparity)/num_disparities)
-
